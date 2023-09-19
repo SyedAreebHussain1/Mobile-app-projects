@@ -1,0 +1,33 @@
+[
+    {
+        "question": "What is the smallest planet in our solar system?",
+        "option1": "Mars",
+        "option2": "Venus",
+        "option3": "Mercury",
+        "option4": "Pluto",
+        "correctOption": 3,
+        "category":"science",
+        "difficulty": "easy"
+    },
+
+    {
+        "question": "Which country has the world's largest population?",
+        "option1": "India",
+        "option2": "Russia",
+        "option3": "China",
+        "option4": "United States",
+        "correctOption": 2,
+        "category":"world-affairs",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the name of the world's largest social media platform?",
+        "option1": "Twitter",
+        "option2": "Instagram",
+        "option3": "Facebok",
+        "option4": "LinkedIn",
+        "correctOption": 3,
+        "category":"technology",
+        "difficulty": "medium"
+    }
+]
