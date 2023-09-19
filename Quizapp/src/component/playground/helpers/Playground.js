@@ -4,7 +4,6 @@ import {
   Text,
   StyleSheet,
   TouchableOpacity,
-  Alert,
   FlatList,
 } from "react-native";
 import { useRoute } from "@react-navigation/native";

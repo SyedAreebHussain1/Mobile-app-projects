@@ -1,8 +1,5 @@
 import firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
-// import { initializeApp } from "firebase/app";
-
-// import { getAnalytics } from "firebase/analytics";
 const firebaseConfig = {
   apiKey: "AIzaSyCOkwRb04DGrcm0ckoAdV8AAPaJ5A551I8",
   authDomain: "quiz-mobile-app-ff298.firebaseapp.com",
@@ -15,6 +12,4 @@ const firebaseConfig = {
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
 }
-// const app = initializeApp(firebaseConfig);
-// const analytics = getAnalytics(app);
 export { firebase };

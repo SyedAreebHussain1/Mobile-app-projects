@@ -6,10 +6,29 @@
         "option3": "Mercury",
         "option4": "Pluto",
         "correctOption": 3,
-        "category":"science",
+        "category": "science",
         "difficulty": "easy"
     },
-
+    {
+        "question": "Brass gets discoloured in air because of the presence of which of the following gases in air?",
+        "option1": "Oxygen",
+        "option2": "Hydrogen sulphide",
+        "option3": "Carbon dioxide",
+        "option4": "Nitrogen",
+        "correctOption": 1,
+        "category": "science",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which of the following is a non metal that remains liquid at room temperature?",
+        "option1": "Phosphorous",
+        "option2": "Bromine",
+        "option3": "Chlorine",
+        "option4": "Helium",
+        "correctOption": 2,
+        "category": "science",
+        "difficulty": "medium"
+    },
     {
         "question": "Which country has the world's largest population?",
         "option1": "India",
@@ -17,7 +36,27 @@
         "option3": "China",
         "option4": "United States",
         "correctOption": 2,
-        "category":"world-affairs",
+        "category": "world-affairs",
+        "difficulty": "hard"
+    },
+    {
+        "question": "The Druzhba oil pipeline, which was seen in the news, delivers Oil from which country?",
+        "option1": "Ukraine",
+        "option2": "Malaysia",
+        "option3": "Russia",
+        "option4": "USA",
+        "correctOption": 3,
+        "category": "world-affairs",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which country launched the ‘Hwasong-17’ or the Monster missile?",
+        "option3": "North Korea",
+        "option1": "China",
+        "option2": "Palestine",
+        "option4": "Japan",
+        "correctOption": 1,
+        "category": "world-affairs",
         "difficulty": "hard"
     },
     {
@@ -27,7 +66,37 @@
         "option3": "Facebok",
         "option4": "LinkedIn",
         "correctOption": 3,
-        "category":"technology",
+        "category": "technology",
         "difficulty": "medium"
+    },
+    {
+        "question": "In which decade was the American Institute of Electrical Engineers (AIEE) founded?",
+        "option1": "1850s",
+        "option2": "1880s",
+        "option3": "1930s",
+        "option4": "1950s",
+        "correctOption": 2,
+        "category": "technology",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is part of a database that holds only one type of information?",
+        "option1": "Report",
+        "option2": "File",
+        "option3": "Record",
+        "option4": "Field",
+        "correctOption": 4,
+        "category": "technology",
+        "difficulty": "medium"
+    },
+    {
+        "question": "'OS' computer abbreviation usually means?",
+        "option1": "Order of Significance",
+        "option2": "Operating System",
+        "option3": "Open Software",
+        "option4": "Optical Sensor",
+        "correctOption": 3,
+        "category": "technology",
+        "difficulty": "easy"
     }
 ]

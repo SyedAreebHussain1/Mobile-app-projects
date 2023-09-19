@@ -1,16 +1,23 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
+import { useRoute } from "@react-navigation/native";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 
 const Quiz = () => {
   const navigation = useNavigation();
+  const route = useRoute();
+  const { userName } = route.params
   return (
     <View style={styles.container}>
+      <View style={styles.text}>
+
+        <Text style={styles.welcomeText}>{`Start Quiz ${userName}`}</Text>
+      </View>
       <View style={styles.categoryContainer}>
         <TouchableOpacity
           style={styles.category}
           onPress={() =>
-            navigation.navigate("PlaygroundMain", { category: "world-affairs" })
+            navigation.navigate("Play Now", { category: "world-affairs" })
           }
         >
           <Text style={styles.categoryTitle}>World Affairs</Text>
@@ -18,7 +25,7 @@ const Quiz = () => {
         <TouchableOpacity
           style={styles.category}
           onPress={() =>
-            navigation.navigate("PlaygroundMain", { category: "science" })
+            navigation.navigate("Play Now", { category: "science" })
           }
         >
           <Text style={styles.categoryTitle}>Science & Technology </Text>
@@ -26,7 +33,7 @@ const Quiz = () => {
         <TouchableOpacity
           style={styles.category}
           onPress={() =>
-            navigation.navigate("PlaygroundMain", { category: "technology" })
+            navigation.navigate("Play Now", { category: "technology" })
           }
         >
           <Text style={styles.categoryTitle}> Computer Science </Text>
@@ -65,5 +72,14 @@ const styles = StyleSheet.create({
     textAlign: "center",
     color: "#000000",
   },
+  text: {
+    justifyContent: "center",
+    alignItems: "center",
+    margin: 10,
+  },
+  welcomeText: {
+    fontSize: 20,
+    fontWeight: "bold",
+  }
 });
 export default Quiz;
